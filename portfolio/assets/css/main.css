@@ -41,15 +41,16 @@
 }
 hr {
     border: 0;
-    height: 0; /* Firefox... */
+    height: 0; 
     box-shadow: 0 0 10px 1px black;
     margin-bottom: 15px;
 }
-hr:after {  /* Not really supposed to work, but does */
-    content: "\00a0";  /* Prevent margin collapse */
+hr:after {
+    content: "\00a0";
 }
 .project-img {
-    cursor: pointer; 
+    cursor: pointer;
+    max-width: 100%;
 }
 .project-title {
     display: block;
@@ -59,9 +60,6 @@ hr:after {  /* Not really supposed to work, but does */
 }
 .project {
     margin-bottom: 15px;
-}
-.project-img {
-    max-width: 100%;
 }
 h3 {
     text-align: center;
