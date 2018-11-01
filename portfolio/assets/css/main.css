@@ -5,7 +5,7 @@
     box-sizing: border-box;
   }
 
-.header.container {
+.header {
     display: flex;
     flex-wrap: wrap;
 }
